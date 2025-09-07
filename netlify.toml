@@ -1,0 +1,10 @@
+# Netlify configuration
+[build]
+  publish = "build"
+  command = "npm run build"
+
+# Optional: Custom redirects for single-page application
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
